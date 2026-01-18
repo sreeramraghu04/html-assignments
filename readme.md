@@ -148,7 +148,7 @@
       ```
 
     - **Date Input**
-    - For selecting a date.
+      For selecting a date.
 
       ```html
       <input type="date" />
@@ -244,22 +244,24 @@
     The `<meter>` and `<progress>` tags in HTML are used to represent values but serve different purposes:
 
     - **`<meter>` Tag**  
-      Represents a value within a defined range, like a gauge or measurement.  
-      Example:
+      Represents a value within a defined range, like a gauge or measurement.
+       
+    #### Example:
 
       ```html
       <meter value="0.7" min="0" max="1">70%</meter>
       ```
 
     - **`<progress>` Tag**  
-      Shows the progress of a task, like a loading bar.  
-      Example:
+      Shows the progress of a task, like a loading bar.
+      
+    #### Example:
 
       ```html
       <progress value="30" max="100">30%</progress>
       ```
 
-    - **Key Difference:**
+    **Key Difference:**
 
     - `<meter>` is for measurements or values within a specific range (e.g., performance scores).
     - `<progress>` is for tasks in progress (e.g., file uploads).
@@ -268,11 +270,11 @@
 
     The difference between **SVG** and **Canvas** in HTML5 lies in how they handle graphics:
 
-    - **SVG (Scalable Vector Graphics):**
-    - Uses XML to create vector graphics (shapes are defined by mathematical equations).
+    **SVG (Scalable Vector Graphics):**
+    - Uses XML to create vector graphics (mathematical equations define shapes).
     - Graphics are resolution-independent and scalable without losing quality.
     - Suitable for static or interactive vector-based graphics.
-    - Example:
+    #### Example:
 
       ```html
       <svg width="100" height="100">
@@ -280,11 +282,12 @@
       </svg>
       ```
 
-    - **Canvas:**
+    **Canvas:**
     - Uses JavaScript to draw pixel-based graphics.
     - Graphics are resolution-dependent and lose quality when scaled.
     - Suitable for dynamic and real-time rendering (e.g., games, animations).
-    - Example:
+      
+    #### Example:
 
       ```html
       <canvas id="myCanvas" width="100" height="100"></canvas>
@@ -296,7 +299,7 @@
       </script>
       ```
 
-      **Key Difference:**
+    **Key Difference:**
 
     - **SVG** is better for resolution-independent, static graphics.
     - **Canvas** is ideal for high-performance, dynamic graphics.
@@ -352,7 +355,7 @@
 
       **Usage:**
 
-      - To describe the purpose of code for better understanding.
+      - To describe the purpose of the code for better understanding.
       - To temporarily hide code during development.
 
       ```html
@@ -415,10 +418,10 @@
     - **Reduces File Size:**  
       Minimizes unnecessary spaces in the HTML file, improving load times.
 
-    ### Example:
+    #### Example:
 
     ```html
-    <p>This is text with extra spaces.</p>
+    <p> This is text with  extra spaces. </p>
     ```
 
     **Rendered as:**  
@@ -426,7 +429,7 @@
 
     - Collapsing white space ensures consistent formatting on the webpage.
 
-23. What is hyperlink? What is its need?
+23. What is a hyperlink? What is its need?
 
     A **hyperlink** in HTML is a link that allows users to navigate between web pages or resources. It is created using the `<a>` tag.
 
@@ -447,18 +450,18 @@
     - **Improves User Experience:**  
       Makes content interactive and easily accessible.
 
-    **Example:**  
+    #### Example:
     To link to Google:
 
     ```html
     <a href="https://google.com">Go to Google</a>
     ```
 
-24. What is the need of alt tag in img tag?
+24. What is the need of `alt=""` attribute in `<img>` tag?
 
-    The **`alt`** tag in the `<img>` tag provides alternative text for an image if it cannot be displayed.
+    The **`alt`** attribute in the `<img>` tag provides alternative text for an image if it cannot be displayed.
 
-    ### **Need for `alt` tag:**
+    ### **Need for `alt` attribute:**
 
     - **Accessibility:**  
       Helps screen readers describe images to visually impaired users.
@@ -469,7 +472,7 @@
     - **Fallback Text:**  
       Displays the text if the image fails to load.
 
-    ### Example:
+    #### Example:
 
     ```html
     <img src="image.jpg" alt="A beautiful sunset over the mountains" />
@@ -501,7 +504,7 @@
     - **HTML:** Tolerates errors and displays content even if the code is not perfect.
     - **XHTML:** If there are errors, the browser will not display the page.
 
-    ### Example:
+    #### Example:
 
     **HTML:**
 
@@ -536,7 +539,7 @@
     - **Absolute URL** includes the full URL with the domain.
     - **Relative URL** only includes the path from the current page.
 
-26. What is the role of action attribute in HTML forms?
+26. What is the role of the `action=""` attribute in HTML forms?
 
     The **`action`** attribute in an HTML form specifies the URL where the form data should be sent when the form is submitted.
 
@@ -548,7 +551,7 @@
     - **Helps Form Handling:**  
       Directs the form data to the correct location for processing (e.g., a server-side script like PHP or an API endpoint).
 
-27. What is the role of method attributes in HTML forms?
+27. What is the role of `method=""` attributes in HTML forms?
 
     The **`method`** attribute in an HTML form specifies the HTTP method to be used when submitting the form data.
 
