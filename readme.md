@@ -4,12 +4,14 @@
 
 1. What is HTML?
 
-   - **HTML** was invented by **Tim Berners-Lee**, in 1990. HTML **(HyperText Markup Language)** is the standard language used to create and structure content on the web, such as text, images, and links, by defining the structure of a webpage.
+   - **HTML** was invented by **Tim Berners-Lee**, in 1990. HTML **(HyperText Markup Language)** is the standard language used to create and structure content on the web, such as text, images, and links, by           defining the structure of a webpage.
 
 2. What is the difference between HTML tags, elements, and attributes?
 
    - **HTML Tag**: The basic building block used to define elements (e.g., `<p>` or `<div>`).
+     
    - **HTML Element**: A complete structure made of opening and closing tags with content in between (e.g., `<p>Hello</p>`).
+     
    - **HTML Attribute**: Provides additional information about an element, written inside the opening tag (e.g., `<a href="example.com">Link</a>`).
 
 3. What are the different types of lists in HTML?
@@ -17,12 +19,15 @@
    There are three types of lists in HTML:
 
    - **Ordered List (`<ol>`)**: Displays items in a numbered sequence.
+     
    - **Unordered List (`<ul>`)**: Displays items with bullet points.
+     
    - **Definition List (`<dl>`)**: Displays terms and their definitions.
 
 4. What is the difference between the “id attribute” and the “class attribute” of HTML elements?
 
    - **`id` attribute**: Uniquely identifies a single element on a page. Used once per element.
+     
    - **`class` attribute**: Groups multiple elements with the same style or behavior. Can be reused on multiple elements.
 
 5. List various types of formatting tags in HTML with examples?
@@ -94,26 +99,30 @@
 8. State the difference between inline and block elements.
 
    - **Inline Elements**: Do not start on a new line and take up only as much width as necessary (e.g., `<span>`, `<a>`).
+     
    - **Block Elements**: Start on a new line and take up the full width available (e.g., `<div>`, `<p>`).
 
 9. What is the difference between `<link>` and `<a>` tag?
 
    - **`<link>` tag**: Links external resources, like stylesheets, to the webpage. It is used in the `<head>` section.
+     
    - **`<a>` tag**: Creates hyperlinks to navigate between pages or sections. It is used in the `<body>` section.
 
 10. What is the difference between a figure and a figcaption tag?
 
     - **`<figure>` tag**: Used to group media content like images, videos, or illustrations along with a caption.
+      
     - **`<figcaption>` tag**: Provides a caption or description for the content inside a `<figure>`.
 
 11. What are the differences between HTML and HTML5?
 
     - **HTML**: The standard markup language for creating web pages, used for structuring content.
-    - **HTML5**: The latest version of HTML, with new features like native support for video and audio, improved form controls, better semantic elements (e.g., `<header>`, `<footer>`), and enhanced API support (e.g., local storage, geolocation).
+      
+    - **HTML5**: The latest version of HTML, with new features like native support for video and audio, improved form controls, better semantic elements (e.g., `<header>`, `<footer>`), and enhanced API support         (e.g., local storage, geolocation).
 
 12. What are forms in HTML?
 
-    - Forms in HTML are used to collect user input, such as text, selections, or file uploads. They are created using the `<form>` tag and include various input elements like `<input>`, `<textarea>`, and `<button>`.
+    - Forms in HTML are used to collect user input, such as text, selections, or file uploads. They are created using the `<form>` tag and include various input elements like `<input>`, `<textarea>`, and               `<button>`.
 
 13. Explain the types of inputs in HTML with examples.
 
@@ -236,7 +245,7 @@
 
     - `<div>` and `<span>` are non-semantic as they don’t indicate their purpose.
 
-    **Importance:**  
+    **Key Points:**  
     Semantic elements improve SEO, accessibility, and make the code easier to understand.
 
 17. What is difference between `<meter>` tag and `<progress>` tag?
@@ -262,7 +271,6 @@
       ```
 
     **Key Difference:**
-
     - `<meter>` is for measurements or values within a specific range (e.g., performance scores).
     - `<progress>` is for tasks in progress (e.g., file uploads).
 
@@ -274,6 +282,7 @@
     - Uses XML to create vector graphics (mathematical equations define shapes).
     - Graphics are resolution-independent and scalable without losing quality.
     - Suitable for static or interactive vector-based graphics.
+      
     #### Example:
 
       ```html
@@ -300,7 +309,6 @@
       ```
 
     **Key Difference:**
-
     - **SVG** is better for resolution-independent, static graphics.
     - **Canvas** is ideal for high-performance, dynamic graphics.
 
@@ -319,12 +327,11 @@
     - Data is cleared when the browser tab is closed.
 
     **Key Points:**
-
     - More secure and faster than cookies.
     - Used to store small amounts of data (key-value pairs).
     - Cannot be accessed by the server.
 
-20. What is a comment in HTML and its type and usage?
+20. What is a comment in HTML, its type, and usage?
 
     A **comment** in HTML is text ignored by the browser, used to explain code or temporarily disable parts of it. It helps improve code readability and debugging.
 
@@ -354,7 +361,6 @@
       ```
 
       **Usage:**
-
       - To describe the purpose of the code for better understanding.
       - To temporarily hide code during development.
 
@@ -399,7 +405,6 @@
     ```
 
     ### Key Points:
-
     - Empty elements are self-closing.
     - They often serve structural or functional purposes.
 
@@ -421,7 +426,7 @@
     #### Example:
 
     ```html
-    <p> This is text with  extra spaces. </p>
+    <p>  This is text with    extra spaces.  </p>
     ```
 
     **Rendered as:**  
@@ -451,13 +456,14 @@
       Makes content interactive and easily accessible.
 
     #### Example:
+    
     To link to Google:
 
     ```html
     <a href="https://google.com">Go to Google</a>
     ```
 
-24. What is the need of `alt=""` attribute in `<img>` tag?
+25. What is the need of `alt=""` attribute in the `<img>` tag?
 
     The **`alt`** attribute in the `<img>` tag provides alternative text for an image if it cannot be displayed.
 
@@ -478,7 +484,7 @@
     <img src="image.jpg" alt="A beautiful sunset over the mountains" />
     ```
 
-- The `alt` tag ensures images are accessible and improves web content's overall usability.
+    - The `alt` tag ensures images are accessible and improves the web content's overall usability.
 
 24. What is the difference between HTML and XHTML?
 
@@ -520,7 +526,7 @@
 
     - In XHTML, if any tag is unclosed or improperly formatted, it will not display correctly.
 
-25. What is the difference between absolute and relative URL?
+25. What is the difference between an absolute and a relative URL?
 
     The difference between **absolute URL** and **relative URL** is how they specify the location of a resource:
 
@@ -535,7 +541,6 @@
     - **Usage:** Used for linking to resources within the same website or domain.
 
     ### **Key Difference:**
-
     - **Absolute URL** includes the full URL with the domain.
     - **Relative URL** only includes the path from the current page.
 
@@ -551,7 +556,7 @@
     - **Helps Form Handling:**  
       Directs the form data to the correct location for processing (e.g., a server-side script like PHP or an API endpoint).
 
-27. What is the role of `method=""` attributes in HTML forms?
+27. What is the role of the `method=""` attribute in HTML forms?
 
     The **`method`** attribute in an HTML form specifies the HTTP method to be used when submitting the form data.
 
@@ -561,8 +566,8 @@
       It determines how the form data will be transmitted to the server.
 
     - **Two Common Methods:**
-    - **`GET`:** Sends form data in the URL (visible), often used for search or retrieval operations.
-    - **`POST`:** Sends form data in the request body (not visible), used for sending sensitive or large data.
+       - **`GET`:** Sends form data in the URL (visible), often used for search or retrieval operations.
+       - **`POST`:** Sends form data in the request body (not visible), used for sending sensitive or large data.
 
 28. What is a grouping tag in HTML?
 
