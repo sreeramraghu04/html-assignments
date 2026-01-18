@@ -578,7 +578,7 @@
 
     - **`<span>`** - A generic inline container used to group inline elements or text.
 
-      Example:
+    # Example:
 
     ```html
     <span style="color: red;">This is red text.</span>
