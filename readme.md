@@ -246,7 +246,7 @@
     - `<div>` and `<span>` are non-semantic as they don’t indicate their purpose.
 
     **Key Points:**  
-    Semantic elements improve SEO, accessibility, and make the code easier to understand.
+    - Semantic elements improve SEO, accessibility, and make the code easier to understand.
 
 17. What is difference between `<meter>` tag and `<progress>` tag?
 
@@ -463,7 +463,7 @@
     <a href="https://google.com">Go to Google</a>
     ```
 
-25. What is the need of `alt=""` attribute in the `<img>` tag?
+24. What is the need of `alt=""` attribute in the `<img>` tag?
 
     The **`alt`** attribute in the `<img>` tag provides alternative text for an image if it cannot be displayed.
 
@@ -486,7 +486,7 @@
 
     - The `alt` tag ensures images are accessible and improves the web content's overall usability.
 
-24. What is the difference between HTML and XHTML?
+25. What is the difference between HTML and XHTML?
 
     **HTML** and **XHTML** are both used to structure content on the web, but they have some key differences:
 
@@ -526,16 +526,16 @@
 
     - In XHTML, if any tag is unclosed or improperly formatted, it will not display correctly.
 
-25. What is the difference between an absolute and a relative URL?
+26. What is the difference between an absolute and a relative URL?
 
     The difference between **absolute URL** and **relative URL** is how they specify the location of a resource:
 
-    ### 1. **Absolute URL:**
+    ### **Absolute URL:**
 
     - **Definition:** Provides the full path to a resource, including the protocol (e.g., `https://`) and domain.
     - **Usage:** Used to link to resources on other websites or external locations.
 
-    ### 2. **Relative URL:**
+    ### **Relative URL:**
 
     - **Definition:** Provides the path to a resource relative to the current document's location.
     - **Usage:** Used for linking to resources within the same website or domain.
@@ -544,7 +544,7 @@
     - **Absolute URL** includes the full URL with the domain.
     - **Relative URL** only includes the path from the current page.
 
-26. What is the role of the `action=""` attribute in HTML forms?
+27. What is the role of the `action=""` attribute in HTML forms?
 
     The **`action`** attribute in an HTML form specifies the URL where the form data should be sent when the form is submitted.
 
@@ -556,7 +556,7 @@
     - **Helps Form Handling:**  
       Directs the form data to the correct location for processing (e.g., a server-side script like PHP or an API endpoint).
 
-27. What is the role of the `method=""` attribute in HTML forms?
+28. What is the role of the `method=""` attribute in HTML forms?
 
     The **`method`** attribute in an HTML form specifies the HTTP method to be used when submitting the form data.
 
@@ -569,7 +569,7 @@
        - **`GET`:** Sends form data in the URL (visible), often used for search or retrieval operations.
        - **`POST`:** Sends form data in the request body (not visible), used for sending sensitive or large data.
 
-28. What is a grouping tag in HTML?
+29. What is a grouping tag in HTML?
 
     ### Common Grouping Tags:
 
@@ -592,7 +592,7 @@
     <span style="color: red;">This is red text.</span>
     ```
 
-29. What is accessibility in HTML?
+30. What is accessibility in HTML?
 
     **Accessibility in HTML** refers to making web content usable by people with disabilities, ensuring that all users, regardless of their abilities, can interact with the web.
 
