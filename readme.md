@@ -318,7 +318,7 @@
     - Stores data for the duration of the session.
     - Data is cleared when the browser tab is closed.
 
-      **Key Points:**
+    **Key Points:**
 
     - More secure and faster than cookies.
     - Used to store small amounts of data (key-value pairs).
@@ -326,7 +326,7 @@
 
 20. What is a comment in HTML and its type and usage?
 
-    - A **comment** in HTML is text ignored by the browser, used to explain code or temporarily disable parts of it. It helps improve code readability and debugging.
+    A **comment** in HTML is text ignored by the browser, used to explain code or temporarily disable parts of it. It helps improve code readability and debugging.
 
       ### Syntax:
 
