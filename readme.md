@@ -2,14 +2,13 @@
 
 ## Assignment
 
-1. what is HTML?
+1. What is HTML?
 
    - **HTML** was invented by **Tim Berners-Lee**, in 1990. HTML **(HyperText Markup Language)** is the standard language used to create and structure content on the web, such as text, images, and links, by defining the structure of a webpage.
 
-2. What is the difference between HTML tags, elements and attributes?
+2. What is the difference between HTML tags, elements, and attributes?
 
    - **HTML Tag**: The basic building block used to define elements (e.g., `<p>` or `<div>`).
-
    - **HTML Element**: A complete structure made of opening and closing tags with content in between (e.g., `<p>Hello</p>`).
    - **HTML Attribute**: Provides additional information about an element, written inside the opening tag (e.g., `<a href="example.com">Link</a>`).
 
@@ -26,7 +25,7 @@
    - **`id` attribute**: Uniquely identifies a single element on a page. Used once per element.
    - **`class` attribute**: Groups multiple elements with the same style or behavior. Can be reused on multiple elements.
 
-5. List various types of formatting tags in HTML with examples.
+5. List various types of formatting tags in HTML with examples?
 
    **Formatting Tags in HTML:**
 
@@ -82,7 +81,7 @@
 
      These tags help in styling and organizing content on a webpage, making it more readable and visually appealing.
 
-6. Explain the usage of <!DOCTYPE> in HTML.
+6. Explain the usage of `<!DOCTYPE>` in HTML?
 
    - The `<!DOCTYPE>` declaration defines the document type and version of HTML being used. It helps the browser render the page correctly. For example, `<!DOCTYPE html>` is used for HTML5.
 
@@ -97,7 +96,7 @@
    - **Inline Elements**: Do not start on a new line and take up only as much width as necessary (e.g., `<span>`, `<a>`).
    - **Block Elements**: Start on a new line and take up the full width available (e.g., `<div>`, `<p>`).
 
-9. What is the difference between link and a tag?
+9. What is the difference between `<link>` and `<a>` tag?
 
    - **`<link>` tag**: Links external resources, like stylesheets, to the webpage. It is used in the `<head>` section.
    - **`<a>` tag**: Creates hyperlinks to navigate between pages or sections. It is used in the `<body>` section.
