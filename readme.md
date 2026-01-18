@@ -234,7 +234,7 @@
 
     **Non-Semantic Example for Comparison:**
 
-    `<div>` and `<span>` are non-semantic as they don’t indicate their purpose.
+    - `<div>` and `<span>` are non-semantic as they don’t indicate their purpose.
 
     **Importance:**  
     Semantic elements improve SEO, accessibility, and make the code easier to understand.
