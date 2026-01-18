@@ -1,6 +1,6 @@
-# HTML
+# HTML 5
 
-## assignment
+## Assignment
 
 1. what is HTML?
 
@@ -86,7 +86,7 @@
 
    - The `<!DOCTYPE>` declaration defines the document type and version of HTML being used. It helps the browser render the page correctly. For example, `<!DOCTYPE html>` is used for HTML5.
 
-7. What is the significance of the <head> and <body> tag?
+7. What is the significance of the `<head>` and `<body>` tag?
 
    - **`<head>` tag**: Contains metadata about the webpage, like title, links to stylesheets, and scripts. This information is not displayed on the page.
 
