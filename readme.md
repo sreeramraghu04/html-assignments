@@ -490,22 +490,22 @@
 
     **HTML** and **XHTML** are both used to structure content on the web, but they have some key differences:
 
-    ### 1. **Syntax:**
+    ### **Syntax:**
 
     - **HTML:** More lenient with syntax. Tags and attributes are not always case-sensitive, and closing tags can be omitted in some cases.
     - **XHTML:** Strict syntax. All tags must be properly closed, and tag names/attributes must be lowercase.
 
-    ### 2. **Document Structure:**
+    ### **Document Structure:**
 
     - **HTML:** Can be more flexible with unclosed or improperly nested tags.
     - **XHTML:** Requires a well-formed structure, where every tag must be properly nested and closed.
 
-    ### 3. **Doctype:**
+    ### **Doctype:**
 
     - **HTML:** Uses a simpler doctype declaration.
     - **XHTML:** Requires a more specific doctype declaration, and it must be served as XML.
 
-    ### 4. **Error Handling:**
+    ### **Error Handling:**
 
     - **HTML:** Tolerates errors and displays content even if the code is not perfect.
     - **XHTML:** If there are errors, the browser will not display the page.
