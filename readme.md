@@ -567,7 +567,7 @@
 
     - **`<div>`** - A generic container used to group content.
 
-      Example:
+    #### Example:
 
     ```html
     <div>
@@ -578,7 +578,7 @@
 
     - **`<span>`** - A generic inline container used to group inline elements or text.
 
-    # Example:
+    #### Example:
 
     ```html
     <span style="color: red;">This is red text.</span>
@@ -599,7 +599,7 @@
     - **Color Contrast and Text Size:**  
       Ensuring sufficient contrast between text and background, and allowing text resizing for better readability.
 
-    ## Example for Accessibility:
+    #### Example for Accessibility:
 
     ```html
     <img src="image.jpg" alt="A description of the image" />
