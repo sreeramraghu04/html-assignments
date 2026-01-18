@@ -119,7 +119,7 @@
 
     In HTML, input types specify the type of data a user can enter into a form. Here are some common input types with examples:
 
-    - **Text Input**  
+    - **Text Input**
       For plain text input.
 
       ```html
@@ -133,8 +133,8 @@
       <input type="password" placeholder="Enter your password" />
       ```
 
-    - **Email Input**  
-      For email addresses, validates the format.
+    - **Email Input**
+      For email addresses, validate the format.
 
       ```html
       <input type="email" placeholder="Enter your email" />
@@ -147,8 +147,8 @@
       <input type="number" min="1" max="100" />
       ```
 
-    - **Date Input**  
-      For selecting a date.
+    - **Date Input**
+    - For selecting a date.
 
       ```html
       <input type="date" />
@@ -162,7 +162,7 @@
       <input type="radio" name="gender" value="female" /> Female
       ```
 
-    - **Checkbox Input**  
+    - **Checkbox Input**
       For multiple-choice options.
 
       ```html
@@ -177,7 +177,7 @@
       <input type="file" />
       ```
 
-    - **Submit Button**  
+    - **Submit Button**
       Submits the form.
 
       ```html
@@ -196,7 +196,8 @@
 14. Explain the importance of meta tags and their types.
 
     **Importance of Meta Tags in HTML:**  
-    Meta tags provide metadata about a web page, helping search engines and browsers understand the content. They do not appear on the page but are essential for SEO, accessibility, and controlling browser behavior.
+    Meta tags provide metadata about a web page, helping search engines and browsers understand the content. They do not appear on the page but are essential for SEO, accessibility, and controlling browser
+    behavior.
 
     **Types of Meta Tags with Examples:**
 
@@ -218,7 +219,7 @@
     - **Refresh Meta Tags**  
       Automatically refresh or redirect the page.
 
-15. What are Semantic elements?
+16. What are Semantic elements?
 
     **Semantic elements** in HTML are elements that clearly describe their meaning and role in the structure of a webpage. They improve readability for both developers and search engines.
 
@@ -238,7 +239,7 @@
     **Importance:**  
     Semantic elements improve SEO, accessibility, and make the code easier to understand.
 
-16. What is difference between `<meter>` tag and `<progress>` tag?
+17. What is difference between `<meter>` tag and `<progress>` tag?
 
     The `<meter>` and `<progress>` tags in HTML are used to represent values but serve different purposes:
 
@@ -263,7 +264,7 @@
     - `<meter>` is for measurements or values within a specific range (e.g., performance scores).
     - `<progress>` is for tasks in progress (e.g., file uploads).
 
-17. What is the difference between SVG and Canvas HTML5 elements?
+18. What is the difference between SVG and Canvas HTML5 elements?
 
     The difference between **SVG** and **Canvas** in HTML5 lies in how they handle graphics:
 
@@ -300,7 +301,7 @@
     - **SVG** is better for resolution-independent, static graphics.
     - **Canvas** is ideal for high-performance, dynamic graphics.
 
-18. Explain the concept of web storage in HTML5.
+19. Explain the concept of web storage in HTML5.
 
     **Web Storage** in HTML5 provides a way to store data in a user's browser, making it easier and more efficient than cookies. It has two types:
 
@@ -320,7 +321,7 @@
     - Used to store small amounts of data (key-value pairs).
     - Cannot be accessed by the server.
 
-19. What is a comment in HTML and its type and usage?
+20. What is a comment in HTML and its type and usage?
 
     - A **comment** in HTML is text ignored by the browser, used to explain code or temporarily disable parts of it. It helps improve code readability and debugging.
 
@@ -358,7 +359,7 @@
       <!-- <p>This text is temporarily hidden.</p> -->
       ```
 
-20. What are the empty elements?
+21. What are the empty elements?
 
     **Empty elements** in HTML are elements that do not have any content or closing tags. They are self-contained and typically used for embedding resources or adding metadata.
 
@@ -399,7 +400,7 @@
     - Empty elements are self-closing.
     - They often serve structural or functional purposes.
 
-21. What is the advantage of collapsing white space?
+22. What is the advantage of collapsing white space?
 
     **Collapsing white space** in HTML means the browser treats multiple spaces, tabs, or newlines as a single space.
 
@@ -425,7 +426,7 @@
 
     - Collapsing white space ensures consistent formatting on the webpage.
 
-22. What is hyperlink? What is its need?
+23. What is hyperlink? What is its need?
 
     A **hyperlink** in HTML is a link that allows users to navigate between web pages or resources. It is created using the `<a>` tag.
 
@@ -453,7 +454,7 @@
     <a href="https://google.com">Go to Google</a>
     ```
 
-23. What is the need of alt tag in img tag?
+24. What is the need of alt tag in img tag?
 
     The **`alt`** tag in the `<img>` tag provides alternative text for an image if it cannot be displayed.
 
